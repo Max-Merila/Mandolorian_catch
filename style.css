@@ -74,3 +74,69 @@ body{
 #egg3 {
   left: calc(60% + 8%/2 - 2%/2);
 }
+
+.bullseye {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  height: 7%;
+  width: 7%;
+  background: url('bullseye1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 11;
+}
+
+#bullseye1 {
+  left: calc(20% + 8%/2 - 7%/2);
+}
+
+#bullseye2 {
+  left: calc(40% + 8%/2 - 7%/2);
+}
+
+#bullseye3 {
+  left: calc(60% + 8%/2 - 7%/2);
+}
+
+#floor {
+  position: absolute;
+  height: 7%;
+  width: 100%;
+  background-color: #292929;
+  bottom: 0;
+  z-index: 10;
+}
+
+#basket {
+  height: 100px;
+  width: 85px;
+  position: absolute;
+  bottom: 5px;
+  background: url("basket.png")
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 11;
+}
+
+#score_1 {
+  position: absolute;
+  color: #424242;
+  font-size: 30px;
+  top:45%;
+  left: 30%;
+}
+
+#restart {
+  border: 0;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  background-color: fuchsia;
+  color: white;
+  top: 40%;
+  font-size: 35px;
+  display: none;
+  cursor: pointer;
+}
